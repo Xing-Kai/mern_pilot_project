@@ -14,6 +14,7 @@ const HomePage = () => {
         >
           Current Products
         </Text>
+
         <Text
           fontSize='xl'
           textAlign={"center"}
@@ -22,7 +23,7 @@ const HomePage = () => {
         >
           No products found {" "}
           <Link to={"/create"}>
-            <Text as='span' color='blue.500' _hover={{ textDecoration: "unerline"}}>
+            <Text as='span' color='blue.500' _hover={{ textDecoration: "underline"}}>
               Create a product
             </Text>
           </Link>
