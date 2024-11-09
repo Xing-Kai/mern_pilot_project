@@ -1,7 +1,7 @@
 import { DeleteIcon, EditIcon } from "@chakra-ui/icons";
 import { Box, Heading, HStack, IconButton, Image, Text, useColorModeValue} from "@chakra-ui/react";
-// import { useProductStore } from "../store/product";
-// import { useState } from "react";
+//import { useProductStore } from "../store/product";
+//import { useState } from "react";
 
 const ProductCard = ({product}) => {
     //const [updateProduct, setUpdateProduct] = useState(product);
